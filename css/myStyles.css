@@ -1,0 +1,344 @@
+/* CSS Document */
+.environment {
+    background-color: #80dc7f;
+    color: white;
+}
+.humanities {
+    background-color: #80dbd4;
+    color: white;
+}
+.animals {
+    background-color: #dee21f;
+    color: white;
+}
+.food {
+    background-color: #f8a8c4;
+    color: white;
+}
+.education {
+    background-color: #cfa8e1;
+    color: white;
+}
+.artCulture {
+    background-color: #e5b514;
+    color: white;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    /* height: 600px; */
+    height: auto;
+}
+.grid-item {
+    /* border: 1px solid rgb(0, 0, 0); */
+    text-align: left;
+    /* height: 600px; */
+    height: auto;
+}
+html,
+body {
+    /* overflow: hidden; */
+    /* don't do scrollbars */
+    font-family: "Myriad Pro";
+    /* font-size: 14px; */
+}
+#calendar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+/* So very important -- eliminated the flickering on mouseover -- */
+.popover{ pointer-events:none; }
+
+.fc-day-header{
+	color: white;
+    background-color: #00b8ab;
+}
+.fc-unthemed td.fc-today{
+    background: #00b8ab;
+	opacity: .2;
+}
+.fc-toolbar h2 {
+	color: #0fb9ad;
+}
+div.categories {
+    position: relative;
+    top: 250px;
+	padding-right: 50px;
+}
+/* REMEMBER FOR ALL BUTTONS HOVER MUST CASCADE BEFORE ACTIVE */
+button.fc-button {
+	color: #dee232;
+	background-color: #ffffff;
+	border: none;
+	outline:none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+/* previous year button */
+button.fc-prevYear-button {
+	color: #dee232;
+	background-color: #ffffff;
+	border: none;
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+button.fc-prevYear-button:hover {
+	color: #dee232;
+	background-color: #ffffff;
+	border: none;
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+button.fc-prevYear-button:active {
+	color: #dee232;
+	background-color: #ffffff;
+	border: none;
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+button.fc-prevYear-button:focus {
+	color: #dee232;
+	background-color: #ffffff;
+	border: none;
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+/* previous month button */
+button.fc-prev-button {
+	color: #dee232;
+	background-color: #ffffff;
+	border: none;
+	outline:none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+button.fc-prev-button:hover {
+	color: #dee232;
+	background-color: #ffffff;
+	border: none;
+	outline:none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+button.fc-prev-button:active {
+	color: #dee232;
+	background-color: #ffffff;
+	border: none;
+	outline:none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+button.fc-prev-button:focus {
+	color: #dee232;
+	background-color: #ffffff;
+	border: none;
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+/* next month button */
+button.fc-next-button {
+	color: #dee232;
+	background-color: #ffffff;
+	border: none;
+	outline:none;-webkit-box-shadow: none;
+	box-shadow: none;
+}
+button.fc-next-button:hover {
+	color: #dee232;
+	background-color: #ffffff;
+	border: none;
+	outline:none;-webkit-box-shadow: none;
+	box-shadow: none;
+}
+button.fc-next-button:active {
+	color: #dee232;
+	background-color: #ffffff;
+	border: none;
+	outline:none;-webkit-box-shadow: none;
+	box-shadow: none;
+}
+button.fc-next-button:focus {
+	color: #dee232;
+	background-color: #ffffff;
+	border: none;
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+/* next year button */
+button.fc-nextYear-button {
+	color: #dee232;
+	background-color: #ffffff;
+	border: none;
+	outline:none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+button.fc-nextYear-button:hover {
+	color: #dee232;
+	background-color: #ffffff;
+	border: none;
+	outline:none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+button.fc-nextYear-button:active {
+	color: #dee232;
+	background-color: #ffffff;
+	border: none;
+	outline:none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+button.fc-nextYear-button:focus {
+	color: #dee232;
+	background-color: #ffffff;
+	border: none;
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+/* Month button */
+button.fc-dayGridMonth-button {
+	color: #dee232;
+	background-color: #ffffff;
+	border: none;
+	outline:none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+button.fc-dayGridMonth-button:hover {
+	color: #dee232;
+	background-color: #ffffff;
+	border: none;
+	outline:none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+button.fc-dayGridMonth-button:active {
+	color: #dee232;
+	background-color: #ffffff;
+	border: none;
+	outline:none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+/* Week button */
+button.fc-timeGridWeek-button {
+	color: #dee232;
+	background-color: #ffffff;
+	border: none;
+	outline:none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+button.fc-timeGridWeek-button:hover {
+	color: #dee232;
+	background-color: #ffffff;
+	border: none;
+	outline:none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+button.fc-timeGridWeek-button:active {
+	color: #dee232;
+	background-color: #ffffff;
+	border: none;
+	outline:none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+/* Day button */
+button.fc-timeGridDay-button {
+	color: #dee232;
+	background-color: #ffffff;
+	border: none;
+	outline:none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+button.fc-timeGridDay-button:hover {
+	color: #dee232;
+	background-color: #ffffff;
+	border: none;
+	outline:none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+button.fc-timeGridDay-button:active {
+	color: #dee232;
+	background-color: #ffffff;
+	border: none;
+	outline:none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+/* Today button */
+button.fc-today-button {
+	color: #dee232;
+	background-color: #ffffff;
+	border: none;
+	outline:none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+button.fc-today-button:hover {
+	color: #dee232;
+	background-color: #ffffff;
+	border: none;
+	outline:none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+button.fc-today-button:active {
+	color: #dee232;
+	background-color: #ffffff;
+	border: none;
+	outline:none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+button.fc-today-button.fc-button.fc-button-primary {
+	color: #dee232;
+	background-color: #ffffff;
+	border: none;
+	outline:none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+button.fc-dayGridMonth-button.fc-button.fc-button-primary.fc-button-active {
+	color: #dee232;
+	background-color: #ffffff;
+	border: none;
+	outline:none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+button.fc-timeGridWeek-button.fc-button.fc-button-primary.fc-button-active {
+	color: #dee232;
+	background-color: #ffffff;
+	border: none;
+	outline:none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+button.fc-timeGridDay-button.fc-button.fc-button-primary.fc-button-active {
+	color: #dee232;
+	background-color: #ffffff;
+	border: none;
+	outline:none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+fieldset { 
+  border: none;
+}
