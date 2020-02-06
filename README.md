@@ -1,2 +1,2 @@
 # UDidGood
-repo for the Wix Event Calendar 
+Repo for the Wix Event Calendar 
